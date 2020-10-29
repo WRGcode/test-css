@@ -1,4 +1,4 @@
- 
+@media(min-width: 480px){ 
 /* =============================================
 Base styles used by All Screens DO NOT EDIT BELOW
 ============================================= */
@@ -71,7 +71,8 @@ Text{
 /*side2*/
 
 body{
-    background-color: white;
+    background-color: rgb(51, 51, 51);
+    color: rgb(211, 211, 211);
     max-width: 1024px;
     margin: auto;
     box-shadow: rgb(51, 51, 51) 10px 10px 25px, rgb(51, 51, 51) -10px 10px 25px;
@@ -161,7 +162,7 @@ box-shadow:rgb(51, 51, 51) 10px -10px 30px;
     margin: 0;
 }
 
-aside{
+/*aside{
     background-color: rgb(211, 211, 211);
 }
 
@@ -171,7 +172,7 @@ aside dl{
 
 /*slide5*/
 
-aside h1{
+/*aside h1{
     font-size: 2rem;
     font-weight: normal;
     justify-content:space-between(0.4rem);
@@ -193,7 +194,7 @@ margin-bottom: 5px;
 
 aside dl{
     text-align: center;
-}
+}*/
 
 footer{
     width: 100%;
@@ -241,9 +242,256 @@ flex-shrink: 1;
 flex-grow: 1;
 }
 
-@media(min-width: 480px){
+
 
 }
-@media(min-width: 481px){
-
-}
+@media(max-width: 481px){ 
+    /* =============================================
+    Base styles used by All Screens DO NOT EDIT BELOW
+    ============================================= */
+     
+     
+    article, aside, figcaption, figure,
+    footer, header, main, nav, section { 
+        display: block;
+    }
+     
+    address, article, aside, blockquote, body, cite, 
+    div, dl, dt, dd, em, figcaption, figure, footer, 
+    h1, h2, h3, h4, h5, h6, header, html, img, 
+    li, main, nav, nav a, ol, p, section, span, ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;  
+    }
+     
+    body {
+        line-height: 1.2em;
+    }
+     
+    ul, ol {
+        list-style: none;
+    }
+     
+    nav ul {
+        list-style: none;
+        list-style-image: none;
+    }
+     
+    nav a {
+        text-decoration: none;
+    }
+     
+    /* =============================================
+    Base styles used by All Screens DO NOT EDIT ABOVE
+    ============================================= */
+     
+    /* HTML and Body Styles */
+    
+    /*side1*/
+    
+    Html{
+        background-color: rgb(246, 177, 177);
+        font-size: 12px;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    Shadow{
+        background:rgb(51, 51, 51);
+    }
+    Nav:active{
+        background:rgb(220, 27, 27) ;
+    }
+    .Spotlight{
+        background:rgb(171, 171, 171) ;
+    }
+    Text{
+        background-color:rgb(211, 211, 211);
+        color: rgb(111, 111, 111);
+    }
+    
+    /*side2*/
+    
+    body{
+        background-color: white;
+        max-width: 1024px;
+        margin: auto;
+        box-shadow: rgb(51, 51, 51) 10px 10px 25px, rgb(51, 51, 51) -10px 10px 25px;
+    }
+    
+    Header img{
+    background-color: white;
+    Width: 100%; 
+    }
+    
+    image #logoImage{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    }
+    
+    p{
+    font-size: 1.2 rem;
+    line-height: 1.4 rem;
+    margin: 15px;
+    }
+    
+    ul{
+        margin: 10px;
+    }
+    
+    /*side3*/
+    
+    ul li{
+        color: white;
+        display: block;
+        font-size: 1.2rem;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    nav:hover{
+        color: rgb(220, 27, 27);
+        text-shadow: 0px 0px 2px black, 0px 0px 15px white;
+    }
+    
+    article p img{
+    float: right;
+    width: 45%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    transform: translate(60px) rotate(30deg);
+    box-shadow:rgb(51, 51, 51) 10px -10px 30px;
+    }
+    
+    .Spotlight{
+        background-color: spotlight;
+        padding: 15px;
+        overflow: auto;
+    }
+    
+    /*side4*/
+    
+    .Spotlight h1{
+        font-size: 2.5rem;
+        color: rgb(111, 111, 111);
+        text-shadow:white -2px 0px 1px, white -5px 0px 30px ;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .Spotlight img{
+        width: 35%;
+        float: left;
+        display: block;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    
+    .Spotlight p{
+        margin: 0;
+    }
+    
+    aside{
+        background-color: rgb(211, 211, 211);
+    }
+    
+    aside dl{
+        color: rgb(220, 27, 27);
+    }
+    
+    /*slide5*/
+    
+    aside h1{
+        font-size: 2rem;
+        font-weight: normal;
+        justify-content:space-between(0.4rem);
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+    
+    aside dt img{
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    }
+    
+    aside dl{
+        text-align: center;
+    }
+    
+    footer{
+        width: 100%;
+    }
+    
+    dl dd{
+        margin-bottom: 20px;
+    }
+    
+    #bottom{
+        background-color:rgb(220, 27, 27) ;
+        color: rgb(111, 111, 111);
+        padding: 15px;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    /*slide6*/
+    
+    #bottom ul{
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    
+    #bottom ul li{
+        color: white;
+    }
+    
+    footer p{
+        color: rgb(111, 111, 111);
+        font-size: 0.9rem;
+        text-align: center;
+        background-color: black;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+    #bottom ul{
+    flex-shrink: 1;
+    flex-grow: 1;
+    }
+    
+    
+    
+    }
+    @media(max-width: 481px){
+    
+    }
+    
